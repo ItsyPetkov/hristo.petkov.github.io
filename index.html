@@ -60,6 +60,7 @@
 							<article id="work">
 								<h2 class="major">Research Projects</h2>
 								<p>In this section, I provide a brief description of all my academic projects, highlighting the key objectives, methodologies, and outcomes of each. These projects span various domains and demonstrate my ability to apply theoretical knowledge to practical challenges. By outlining these experiences, I aim to showcase my problem-solving skills, technical expertise, and capacity for independent and collaborative research.</p>
+								
 								<h4 class="major">Virtual Clinical Trial Emulation with Generative AI Models</h4>
 								<span class="image main"><a href="https://fdong.github.io/mrc-gan/#"><img src="images/research_project_photo.jpg" alt="" /></a></span>
 								<p>This was a Medical Research Council funded research project in partnership with Strathclyde, NHSGGC and Surrey. We aimed for a 6-month robust, fast paced proof-of-concept study to unlock the potential of AI in biomedical and health research. The study has been focused on investigating virtual clinical trial emulations with synthetic data to validate the concept of “generating synthetic data with generative AI and causality learning technology to support virtual clinical trial emulation”.</p>
@@ -73,6 +74,14 @@
 								<p>We found significant differences in HbA1c reduction for GLP-1 vs basal insulin (-1.21 mmol/mol; p<0.001) and GLP-1 vs placebo (-2.58 mmol/mol; p<0.001) in our virtual populations, consistent with LEAD-5 (Liraglutide vs glargine: -0.24%; p=0.0015, Liraglutide vs placebo: -1.09%; p<0.0001).</p>
 								<h5 class="major">Conclusion</h5>
 								<p>AI-powered clinical trials can emulate RCTs in important measurements for T2DM. Our algorithm is specialty agnostic and can explore counterfactual questions, making it suitable for further study in the generalizability of RCT results in real-world populations to support clinical decision-making and policy recommendations.</p>
+								
+								<h4 class="major">DAG-WGAN: Causal Structure Learning with <br> Wasserstein Generative Adversarial Networks</h4>
+								<span class="image main"><a href="https://github.com/ItsyPetkov/DAG-WGAN/tree/master/DAG-WGAN"><img src="images/MyFiles.drawio (1).png" alt="" /></a></span>
+								<p>The combinatorial search space presents a significant challenge to learning causality from data. Recently, the problem has been formulated into a continuous optimization framework with an acyclicity constraint, allowing for the exploration of deep generative models to better capture data sample distributions and support the discovery of Directed Acyclic Graphs (DAGs) that faithfully represent the underlying data distribution. However, so far no study has investigated the use of Wasserstein distance for causal structure learning via generative models. This paper proposes a new model named DAG-WGAN, which combines the Wasserstein-based adversarial loss, an auto-encoder architecture together with an acyclicity constraint. DAG-WGAN simultaneously learns causal structures and improves its data generation capability by leveraging the strength from the Wasserstein distance metric. Compared with other models, it scales well and handles both continuous and discrete data. Our experiments have evaluated DAG-WGAN against the state-of-the-art and demonstrated its good performance. </p>
+
+								<h4 class="major">Efficient Generative Adversarial Dag Learning with No-Curl</h4>
+								<span class="image main"><a href="https://github.com/ItsyPetkov/DAG-WGAN/tree/master/DAG-WGAN%2B"><img src="images/NoCurl.png" alt="" /></a></span>
+								<p>Causal structure learning from data is a challenging task as the search space is typically very large. In recent years a series of methods have been proposed to reformulate causality learning into an optimization problem with a continuous acyclicity constraint to allow problem-solving with continuous optimization techniques. This paper further improves on the causality learning results and efficiency of the continuous optimization approach through the use of generative adversarial neural network learning, which overcomes the limitations of using maximum likelihood estimation in the existing methods. In addition, we adapt the recently proposed DAG-NoCurl framework to the generative causal structure learning to improve the speed performance. In particular, our adapted method does not constrain causal structure discovery to its initial estimation, hence allowing further improvement of the learning results. The proposed method has been tested on several benchmarks and compared against the state-of-the-art.</p>
 							</article>
 
 						<!-- Data Analysis Projects -->
@@ -173,6 +182,7 @@
 									<li>Causality Learning with Wasserstein Generative Adversarial Networks (IJAIA 2022)</li>
 									<li>Efficient Generative Adversarial DAG Learning with No-Curl (ICAI 2023)</li>
 									<li>AI-Powered Clinical Trials: Emulating Real-World GLP-1 Efficacy with Synthetic Patient Populations Using Causal Effect Learning (Diabetes Technology Society 2023)</li>
+									<li>DAGAF: A directed acyclic generative adversarial framework for joint structure learning and tabular data synthesis (Journal of Applied Intelligence 2025)</li>
 								</ol>
 							</article>
 
